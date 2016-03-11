@@ -1,0 +1,32 @@
+body {
+	padding-top: 60px;
+}
+
+li {
+	font-size: 10px;
+}
+img {
+	width: 100%;
+}
+/*.form-control {
+	height: 20px;
+}
+.glyphicon {
+	height: 12px;
+}
+.btn {
+	font-size: 12px;
+}*/
+
+@media all and (max-width: 500px) {
+	.btn-group {
+		display: block;
+	}
+}
+
+ 
+@media all and (min-width: 501px) {
+	.btn-group {
+		display: none;
+	}
+}
